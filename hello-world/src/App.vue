@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <Home data="Hitesh Ahire" msg="done" />
-    <Forloop />
+    <!-- <Home data="Hitesh Ahire" msg="done" /> -->
+    <!-- <Forloop /> -->
+    <HomeComponent />
   </div>
 </template>
 
 <script>
-import Forloop from "./components/Forloop.vue";
+// import Forloop from "./components/Forloop.vue";
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from "./components/Home.vue";
+import HomeComponent from "./components/HomeComponent.vue";
 
 export default {
   name: "App",
   components: {
     //HelloWorld,
     // Home,
-    Forloop,
+    // Forloop,
+    HomeComponent,
   },
 };
 </script>
