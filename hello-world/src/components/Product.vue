@@ -1,15 +1,15 @@
 <template>
-  <div class="users">
-    <h1>Users Component</h1>
+  <div class="product">
+    <h1>Product Component</h1>
   </div>
 </template>
 <script>
 export default {
-  name: "Users",
+  name: "Product",
 };
 </script>
 <style scoped>
-div.users {
+div.product {
   width: 300px;
   background-color: #86e85d;
   height: 100px;

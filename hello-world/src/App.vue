@@ -4,7 +4,9 @@
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <!-- <Home data="Hitesh Ahire" msg="done" /> -->
     <!-- <Forloop /> -->
-    <HomeComponent />
+    <!-- <HomeComponent /> -->
+    <!-- <Template /> -->
+    <Class1 />
   </div>
 </template>
 
@@ -12,7 +14,9 @@
 // import Forloop from "./components/Forloop.vue";
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from "./components/Home.vue";
-import HomeComponent from "./components/HomeComponent.vue";
+// import HomeComponent from "./components/HomeComponent.vue";
+// import Template from "./components/Template.vue";
+import Class1 from "./components/Class1.vue";
 
 export default {
   name: "App",
@@ -20,7 +24,9 @@ export default {
     //HelloWorld,
     // Home,
     // Forloop,
-    HomeComponent,
+    // HomeComponent,
+    // Template,
+    Class1,
   },
 };
 </script>
