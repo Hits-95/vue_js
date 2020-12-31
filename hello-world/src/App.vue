@@ -8,7 +8,8 @@
     <!-- <Template /> -->
     <!-- <Class1 /> -->
     <!-- <DataBind /> -->
-    <Props v-bind:users="users" />
+    <!-- <Props v-bind:users="users" /> -->
+    <ChildToPrarent />
   </div>
 </template>
 
@@ -20,7 +21,8 @@
 // import Template from "./components/Template.vue";
 // import Class1 from "./components/Class1.vue";
 // import DataBind from "./components/DataBind";
-import Props from "./components/Props.vue";
+// import Props from "./components/Props.vue";
+import ChildToPrarent from "./components/ChildToPrarent.vue";
 
 export default {
   name: "App",
@@ -32,7 +34,8 @@ export default {
     // Template,
     // Class1,
     // DataBind,
-    Props,
+    // Props,
+    ChildToPrarent,
   },
   data() {
     return {
