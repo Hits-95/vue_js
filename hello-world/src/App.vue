@@ -8,7 +8,7 @@
     <!-- <Template /> -->
     <!-- <Class1 /> -->
     <!-- <DataBind /> -->
-    <Props />
+    <Props v-bind:users="users" />
   </div>
 </template>
 
@@ -34,8 +34,17 @@ export default {
     // DataBind,
     Props,
   },
+  data() {
+    return {
+      users: [
+        { name: "Hitesh", email: "hbasfsdfsdf" },
+        { name: "PD", email: "hbasfsdfsdf" },
+        { name: "Nikita", email: "hbasfsdfsdf" },
+      ],
+    };
+  },
 };
-</script>
+</script> 
 
 <style>
 #app {
