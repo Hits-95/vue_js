@@ -6,7 +6,9 @@
     <!-- <Forloop /> -->
     <!-- <HomeComponent /> -->
     <!-- <Template /> -->
-    <Class1 />
+    <!-- <Class1 /> -->
+    <!-- <DataBind /> -->
+    <Props />
   </div>
 </template>
 
@@ -16,7 +18,9 @@
 // import Home from "./components/Home.vue";
 // import HomeComponent from "./components/HomeComponent.vue";
 // import Template from "./components/Template.vue";
-import Class1 from "./components/Class1.vue";
+// import Class1 from "./components/Class1.vue";
+// import DataBind from "./components/DataBind";
+import Props from "./components/Props.vue";
 
 export default {
   name: "App",
@@ -26,7 +30,9 @@ export default {
     // Forloop,
     // HomeComponent,
     // Template,
-    Class1,
+    // Class1,
+    // DataBind,
+    Props,
   },
 };
 </script>
