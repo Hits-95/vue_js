@@ -12,7 +12,7 @@ export default {
   name: "ChildToPrarent",
   methods: {
     UpdateTitle() {
-      this.$emit;
+      this.$emit("changeTitle", "Parent Updated....");
     },
   },
 };

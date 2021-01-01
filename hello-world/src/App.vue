@@ -9,7 +9,11 @@
     <!-- <Class1 /> -->
     <!-- <DataBind /> -->
     <!-- <Props v-bind:users="users" /> -->
-    <ChildToPrarent />
+    <!-- <h1>{{ title }}</h1>
+    <ChildToPrarent v-on:changeTitle="UpdateTitle($event)" /> -->
+    <!-- <Check_Radio /> -->
+    <!-- <Form_getData /> -->
+    <Login />
   </div>
 </template>
 
@@ -22,7 +26,10 @@
 // import Class1 from "./components/Class1.vue";
 // import DataBind from "./components/DataBind";
 // import Props from "./components/Props.vue";
-import ChildToPrarent from "./components/ChildToPrarent.vue";
+// import ChildToPrarent from "./components/ChildToPrarent.vue";
+// import Check_Radio from "./components/Check_Radio.vue";
+// import Form_getData from "./components/Form_getData.vue";
+import Login from "./components/Login.vue";
 
 export default {
   name: "App",
@@ -35,17 +42,27 @@ export default {
     // Class1,
     // DataBind,
     // Props,
-    ChildToPrarent,
+    // ChildToPrarent,
+    // Check_Radio,
+    // Form_getData,
+    Login,
   },
-  data() {
-    return {
-      users: [
-        { name: "Hitesh", email: "hbasfsdfsdf" },
-        { name: "PD", email: "hbasfsdfsdf" },
-        { name: "Nikita", email: "hbasfsdfsdf" },
-      ],
-    };
-  },
+  // data() {
+  //   return {
+  //     title: "Send Props child to Prarent",
+  //   };
+  // return {
+  //   users: [
+  //     { name: "Hitesh", email: "hbasfsdfsdf" },
+  //     { name: "PD", email: "hbasfsdfsdf" },
+  //     { name: "Nikita", email: "hbasfsdfsdf" },
+  //   ],
+  // };
+  // methods: {
+  //   UpdateTitle(title) {
+  //     this.title = title;
+  //   },
+  // },
 };
 </script> 
 
