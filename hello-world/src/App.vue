@@ -13,7 +13,9 @@
     <ChildToPrarent v-on:changeTitle="UpdateTitle($event)" /> -->
     <!-- <Check_Radio /> -->
     <!-- <Form_getData /> -->
-    <Login />
+    <!-- <Login /> -->
+    <!-- <Login_validation /> -->
+    <Filter_form />
   </div>
 </template>
 
@@ -29,7 +31,9 @@
 // import ChildToPrarent from "./components/ChildToPrarent.vue";
 // import Check_Radio from "./components/Check_Radio.vue";
 // import Form_getData from "./components/Form_getData.vue";
-import Login from "./components/Login.vue";
+// import Login from "./components/Login.vue";
+// import Login_validation from "./components/Login_validation";
+import Filter_form from "./components/Filter_form.vue";
 
 export default {
   name: "App",
@@ -45,7 +49,9 @@ export default {
     // ChildToPrarent,
     // Check_Radio,
     // Form_getData,
-    Login,
+    // Login,
+    // Login_validation,
+    Filter_form,
   },
   // data() {
   //   return {
